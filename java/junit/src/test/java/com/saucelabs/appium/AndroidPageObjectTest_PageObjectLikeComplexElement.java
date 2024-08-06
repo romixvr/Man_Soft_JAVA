@@ -78,7 +78,7 @@ public class AndroidPageObjectTest_PageObjectLikeComplexElement {
 
 	@Test
 	public void findByElementTest() {
-		Assert.assertNotEquals(null, apiDemosPageObject.textView.getAttribute("text"));
+		Assert.assertNotNull(apiDemosPageObject.textView.getAttribute("text"));
 	}
 
 
@@ -89,7 +89,7 @@ public class AndroidPageObjectTest_PageObjectLikeComplexElement {
 
 	@Test
 	public void androidFindByElementTest(){
-		Assert.assertNotEquals(null, apiDemosPageObject.androidTextView.getAttribute("text"));
+		Assert.assertNotNull(apiDemosPageObject.androidTextView.getAttribute("text"));
 	}
 
 	@Test
@@ -116,7 +116,7 @@ public class AndroidPageObjectTest_PageObjectLikeComplexElement {
 
 	@Test
 	public void androidOrIOSFindByElementTest(){
-		Assert.assertNotEquals(null, apiDemosPageObject.androidOriOsTextView.getAttribute("text"));
+		Assert.assertNotNull(apiDemosPageObject.androidOriOsTextView.getAttribute("text"));
 	}
 
 	@Test
@@ -126,7 +126,7 @@ public class AndroidPageObjectTest_PageObjectLikeComplexElement {
 
 	@Test
 	public void androidFindByUIAutomatorElementTest(){
-		Assert.assertNotEquals(null, apiDemosPageObject.androidUIAutomatorView.getAttribute("text"));
+		Assert.assertNotNull(apiDemosPageObject.androidUIAutomatorView.getAttribute("text"));
 	}
 
 	@Test
@@ -136,7 +136,7 @@ public class AndroidPageObjectTest_PageObjectLikeComplexElement {
 
 	@Test
 	public void isMobileElementTest(){
-		Assert.assertNotEquals(null, apiDemosPageObject.mobileElementView.getAttribute("text"));
+		Assert.assertNotNull(apiDemosPageObject.mobileElementView.getAttribute("text"));
 	}
 
 	@Test
@@ -146,7 +146,7 @@ public class AndroidPageObjectTest_PageObjectLikeComplexElement {
 
 	@Test
 	public void isMobileElement_FindByTest(){
-		Assert.assertNotEquals(null, apiDemosPageObject.mobiletextVieW.getAttribute("text"));
+		Assert.assertNotNull(apiDemosPageObject.mobiletextVieW.getAttribute("text"));
 	}
 
 	@Test
@@ -156,6 +156,6 @@ public class AndroidPageObjectTest_PageObjectLikeComplexElement {
 
 	@Test
 	public void isRemoteElementTest(){
-		Assert.assertNotEquals(null, apiDemosPageObject.remotetextVieW.getAttribute("text"));
+		Assert.assertNotNull(apiDemosPageObject.remotetextVieW.getAttribute("text"));
 	}
 }

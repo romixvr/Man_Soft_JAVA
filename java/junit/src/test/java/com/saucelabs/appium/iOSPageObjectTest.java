@@ -76,7 +76,7 @@ public class iOSPageObjectTest {
 
 	@Test
 	public void findByElementTest() {
-		Assert.assertNotEquals(null, uiTestApp.uiButton.getText());
+		Assert.assertNotNull(uiTestApp.uiButton.getText());
 	}
 
 
@@ -87,7 +87,7 @@ public class iOSPageObjectTest {
 
 	@Test
 	public void iosFindByElementTest(){
-		Assert.assertNotEquals(null, uiTestApp.iosUIButton.getText());
+		Assert.assertNotNull(uiTestApp.iosUIButton.getText());
 	}
 
 	@Test
@@ -114,7 +114,7 @@ public class iOSPageObjectTest {
 
 	@Test
 	public void androidOrIOSFindByElementTest(){
-		Assert.assertNotEquals(null, uiTestApp.androidOriOsTextView.getText());
+		Assert.assertNotNull(uiTestApp.androidOriOsTextView.getText());
 	}
 
 	@Test
@@ -124,7 +124,7 @@ public class iOSPageObjectTest {
 
 	@Test
 	public void iOSFindByUIAutomatorElementTest(){
-		Assert.assertNotEquals(null, uiTestApp.iosUIAutomatorButton.getText());
+		Assert.assertNotNull(uiTestApp.iosUIAutomatorButton.getText());
 	}
 
 	@Test
@@ -134,7 +134,7 @@ public class iOSPageObjectTest {
 
 	@Test
 	public void isMobileElementTest(){
-		Assert.assertNotEquals(null, uiTestApp.mobileButton.getText());
+		Assert.assertNotNull(uiTestApp.mobileButton.getText());
 	}
 
 	@Test
@@ -144,7 +144,7 @@ public class iOSPageObjectTest {
 
 	@Test
 	public void isMobileElement_FindByTest(){
-		Assert.assertNotEquals(null, uiTestApp.mobiletFindBy_Button.getText());
+		Assert.assertNotNull(uiTestApp.mobiletFindBy_Button.getText());
 	}
 
 	@Test
@@ -154,7 +154,7 @@ public class iOSPageObjectTest {
 
 	@Test
 	public void isRemoteElementTest(){
-		Assert.assertNotEquals(null, uiTestApp.remotetextVieW.getText());
+		Assert.assertNotNull(uiTestApp.remotetextVieW.getText());
 	}
 
 	@Test
@@ -176,7 +176,7 @@ public class iOSPageObjectTest {
 	
 	@Test
 	public void isIOSElementTest(){
-		Assert.assertNotEquals(null, uiTestApp.iosButton.getText());
+		Assert.assertNotNull(uiTestApp.iosButton.getText());
 	}
 
 	@Test
@@ -191,7 +191,7 @@ public class iOSPageObjectTest {
 
 	@Test
 	public void findAllElementTest(){
-		Assert.assertNotEquals(null, uiTestApp.findAllElement.getText());
+		Assert.assertNotNull(uiTestApp.findAllElement.getText());
 	}
 
 }
