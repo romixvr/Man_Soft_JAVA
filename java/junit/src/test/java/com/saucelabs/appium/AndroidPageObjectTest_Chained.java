@@ -72,7 +72,7 @@ public class AndroidPageObjectTest_Chained {
 
 	@Test
 	public void androidChainSearchElementTest(){
-		Assert.assertNotEquals(null, apiDemosPageObject.chainElementView.getAttribute("text"));
+		Assert.assertNotNull(apiDemosPageObject.chainElementView.getAttribute("text"));
 	}
 
 	@Test
@@ -82,12 +82,12 @@ public class AndroidPageObjectTest_Chained {
 
 	@Test
 	public void androidOrIOSFindByElementTest_ChainSearches(){
-		Assert.assertNotEquals(null, apiDemosPageObject.chainAndroidOrIOSUIAutomatorView.getAttribute("text"));
+		Assert.assertNotNull(apiDemosPageObject.chainAndroidOrIOSUIAutomatorView.getAttribute("text"));
 	}	
 	
 	@Test
 	public void isAndroidElementTest(){
-		Assert.assertNotEquals(null, apiDemosPageObject.androidElementView.getAttribute("text"));
+		Assert.assertNotNull(apiDemosPageObject.androidElementView.getAttribute("text"));
 	}	
 	
 	@Test

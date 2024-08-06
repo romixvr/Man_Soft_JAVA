@@ -67,7 +67,7 @@ public class AndroidPageObjectTest_ByAllPossible {
 	
 	@Test
 	public void findAllElementTest(){
-		Assert.assertNotEquals(null, apiDemosPageObject.findAllElementView.getAttribute("text"));
+		Assert.assertNotNull(apiDemosPageObject.findAllElementView.getAttribute("text"));
 	}	
 	
 	@Test
